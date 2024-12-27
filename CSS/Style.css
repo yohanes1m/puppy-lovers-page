@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.5vw;
+}
+img {
+  width: 100%;
+  /* max-width: 100%; */
+  height: 100%;
+}
+.margins {
+  background-color: #195774;
+  text-align: center;
+  color: white;
+}
+
+header.margins {
+  padding: 3% 0 2.5%;
+}
+.Puppies {
+  width: 84%;
+  margin: 6% auto 0;
+}
+.Puppies div {
+  margin-bottom: 11%;
+}
+.missingPuppy {
+  display: none;
+}
+.forMorePuppies {
+  text-align: center;
+  margin-bottom: 10%;
+}
+footer.margins {
+  padding: 12% 0 14%;
+}
+
+/* media query starts here */
+@media (min-width: 768px) {
+  body {
+    font-size: 3vw;
+  }
+  .Puppies {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+  }
+  .Puppies div {
+    margin-bottom: 7%;
+  }
+  .missingPuppy {
+    display: block;
+    background-color: #ee4d65;
+    display: flex;
+  }
+  .missingPuppy p {
+    font-size: 4.5vw;
+    padding: 4.5vw;
+    text-align: center;
+  }
+  .first div {
+    width: 32%;
+  }
+  .second div {
+    width: 47%;
+  }
+  .forMorePuppies {
+    margin: 0;
+  }
+}
